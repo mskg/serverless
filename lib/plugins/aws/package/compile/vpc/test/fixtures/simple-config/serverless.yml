@@ -1,0 +1,11 @@
+service: vpc
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+vpc: true
+
+functions:
+  first:
+    handler: handler.handler
